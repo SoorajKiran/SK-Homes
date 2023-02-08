@@ -1,0 +1,50 @@
+.seller form div {
+    display: flex;
+  }
+  .seller textarea {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .seller input {
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .seller form {
+    padding: 30px;
+  }
+  .purpose{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: auto;
+
+  }
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: black;
+}
+textarea::placeholder {
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.5;
+  color: black;
+  padding: auto;
+}
+ 
+  @media screen and (max-width: 768px) {
+    .seller h4 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .seller form div {
+      flex-direction: column;
+    }
+    .seller input {
+      width: 100%;
+    }
+  }
+  
